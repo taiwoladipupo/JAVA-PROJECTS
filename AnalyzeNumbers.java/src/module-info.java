@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+/**
+ * @author TAI
+ *
+ */
+module useofarrays {
+	
+	
+	
+	
+	
+	
+}
