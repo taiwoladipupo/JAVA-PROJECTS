@@ -1,0 +1,77 @@
+				
+
+import java.util.Scanner;
+					class Altima {
+					
+						String Name;
+						String year;
+						String price;
+						boolean Altima;
+						public void showAltima() {
+							if(Altima == true) {
+								 System.out.println("That's interesting");
+							}
+							else
+								System.out.println("");
+							
+							
+							
+						}
+					
+					}
+					
+					class Maxima {
+					
+						String Name;
+						String year;
+						String price;
+						boolean Maxima;
+						public void showMaxima() {
+							 if(Maxima == true) {
+							 System.out.println("That's interesting");
+						}
+						else
+							System.out.println("");
+						return Name;
+							
+						}
+					
+					}
+					
+					public class nissan {
+					
+						public static void main(String[] args) {
+							
+						
+							System.out.println("Welcome to Nissan!");
+							Scanner input =new Scanner(System.in);
+							System.out.print("what car are you interested in :");
+							String reply = input.nextLine();
+						
+							
+							
+							
+							
+							
+							Altima n = new Altima();
+							n.Name = "Nissan Altima";
+							n.year = "2019";
+							n.price = " 30,000 ";
+							System.out.println("\n We have a " + n.year + n.Name + " which costs $" + n.price);
+							n.showAltima();
+							
+							
+							
+							Maxima n1 = new Maxima();
+							n1.Name = "Nissan Maxima";
+							n1.year = " 2019";
+							n1.price = " 35,000 ";
+							
+							System.out.println("Dialing showMaxima.........");
+							n1.showMaxima();
+							
+							
+					
+						}
+					
+					}

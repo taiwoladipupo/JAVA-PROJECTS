@@ -1,0 +1,87 @@
+					
+					/* A java Application for a car lot company that only deals with Nissan
+					* Use Class, methods and constructors*/
+					import java.util.Scanner;
+					
+			
+					public class nissan {
+						
+						
+						
+							String Name;
+							String year;
+							String price;
+							boolean Altima;
+						
+						//Creates the constructor for the Altima class
+							public nissan() {
+						
+								Name = "Nissan Altima";
+								year = "2019";
+								price = " 30,000 ";
+							}
+						
+							
+						
+						//Creates a method showAltima in the Altima class
+							public void showAltima() {
+								if (Altima == true) {
+									System.out.println("That's interesting");
+						
+								} else {
+									System.out.println("");
+						
+							}
+						
+							}
+						
+						//Maxima class
+						static class Maxima {
+						
+							String Name;
+							String year;
+							String price;
+							boolean Maxima;
+						
+						//Creates the constructor in the Maxima class
+							public Maxima() {
+						
+								Name = "Nissan Maxima";
+								year = " 2019";
+								price = " 35,000 ";
+								showMaxima();
+						
+							}
+						
+						//Creates the showMaxima method in the Maxima class
+							public void showMaxima() {
+								if (Maxima == true) {
+									System.out.println("That's interesting");
+								} else
+									System.out.println("");
+						
+							}
+						}
+						
+						
+						
+					//Main method
+						public static void main(String[] args) {
+					
+							nissan n = new nissan();// creates object n for the Altima class
+							Maxima n1 = new Maxima();// Creates object n1 for the Maxima class
+							System.out.println("Welcome to Nissan!");
+							Scanner input = new Scanner(System.in);// Alows the user interacts with the Application software
+							System.out.print("what car are you interested in :");
+					
+							String reply = input.nextLine();
+							System.out.println("Checking Database.......");
+							n.showAltima();
+							n1.showMaxima();
+							System.out.println("\n We have a " + n.year + "" + n.Name + " which costs $" + n.price);
+							System.out.println("\n we have a " + n1.year + " " + n1.Name + " which costs $" + n1.price);
+					
+						}
+					
+						}
+					

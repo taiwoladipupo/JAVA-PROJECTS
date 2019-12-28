@@ -1,0 +1,30 @@
+					
+					class Altima {
+					
+						String Name;
+						int year;
+						int price;
+					
+					}
+					
+					class Maxima {
+					
+						String Name;
+						int year;
+						int price;
+					
+					}
+					
+					public class nissan {
+					
+						public static void main(String[] args) {
+							
+							
+							
+							
+							
+							
+					
+						}
+					
+					}

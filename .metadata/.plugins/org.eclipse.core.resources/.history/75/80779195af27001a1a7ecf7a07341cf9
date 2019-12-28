@@ -1,0 +1,109 @@
+				
+
+import java.util.Scanner;
+					class Altima {
+					
+						String Name;
+						String year;
+						String price;
+						boolean Altima;
+						
+						public  Altima() {
+
+							
+							Altima n = new Altima();
+							n.Name = "Nissan Altima";
+							n.year = "2019";
+							n.price = " 30,000 ";
+						
+							
+							
+							
+							
+							
+							
+							
+						}
+						public void showAltima() {
+							if(Altima == true) {
+								 System.out.println("That's interesting");
+							}
+							else
+								System.out.println("");
+							
+							
+							
+						}
+					
+					}
+					
+					class Maxima {
+					
+						String Name;
+						String year;
+						String price;
+						boolean Maxima;
+						
+						
+						public Maxima () {
+							
+
+							
+							Maxima n1 = new Maxima();
+							n1.Name = "Nissan Maxima";
+							n1.year = " 2019";
+							n1.price = " 35,000 ";
+							n1.showMaxima();
+							
+							
+							
+						}
+						public void showMaxima() {
+							 if(Maxima == true) {
+							 System.out.println("That's interesting");
+						}
+						else
+							System.out.println("");
+						
+							
+						}
+					
+					}
+					
+					public class nissan {
+					
+						public static void main(String[] args) {
+							
+						
+							System.out.println("Welcome to Nissan!");
+							Scanner input =new Scanner(System.in);
+							System.out.print("what car are you interested in :");
+				
+							String reply = input.nextLine();
+	System.out.println("Checking Database.......");
+							
+							
+							Altima n = new Altima();
+
+							System.out.println("\n We have a " + n.year  + "" + n.Name + " which costs $" + n.price);
+														
+							
+							
+							Maxima n1 = new Maxima();
+							System.out.println("\n we have a " + n1.year + " " + n1.Name + " which costs $"+ n1.price);							
+							
+							n.showAltima();
+							n1.showMaxima();
+							
+						
+							
+							
+							
+							
+							
+							
+							
+					
+						}
+					
+					}
